@@ -3,28 +3,29 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #219EBC   ;
-  --secondary-color: #FFB703 ;
-  --accent1-color: #FB8500;
+  --primary-color: #656D4A   ;
+  --secondary-color: #C2C5AA ;
+  --accent1-color: #A68A64;
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Roboto";
+  --heading-font: "Kanit";
   --paragraph-font: Roboto, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #219EBC;  /* headlines on a white background */ 
+  --headline-color-on-white: #656D4A;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #219EBC; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #656D4A; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #219EBC  ;
-  --nav-link-color: #219EBC;
-  --nav-background-color: #FFB703;
+  --paragraph-background-color: #656D4A  ;
+  --nav-link-color: #656D4A;
+  --nav-background-color: #A68A64;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #219EBC;
+  --nav-hover-background-color: #656D4A;
 }
 
 
