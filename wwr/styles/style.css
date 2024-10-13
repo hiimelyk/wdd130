@@ -21,17 +21,17 @@ main section {
     background-color: #656D4A;
 }
 body {
-    background-color: white;
+    background-color: #656D4A;
 }
 header {
-    background-color: white;
+    background-color: #656D4A;
 }
 nav a:hover {
     background-color: #656D4A;
     color: white;
 }
 .book, .join {
-    background-color: white;
+    background-color: #656D4A;
     color: white;
     text-decoration: none;
 }
