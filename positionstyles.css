@@ -76,6 +76,7 @@ gap: 20px;
   grid-template-rows: 1fr 1fr 1fr;
   grid-column-gap: 50px;
   grid-row-gap: 0;
+  justify-items: center;
 
 }
 .red3 {
