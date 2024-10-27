@@ -87,14 +87,14 @@ gap: 20px;
 } 
 .green3 {
  
-  height: 100px; 
+  height: 200px; 
   background-color: green;
   grid-column: 1/2;
   grid-row: 2;
 } 
 .yellow3 {
  
-  height: 100px; 
+  height: 200px; 
   background-color: gold; 
   grid-column: 2/4;
   grid-row: 2; 
