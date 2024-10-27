@@ -78,28 +78,28 @@ gap: 20px;
 
 }
 .red3 {
-  width: 100%; 
+ 
   height: 100px; 
   background-color: red; 
   grid-column: 1/ span 3;
   grid-row: 1;
 } 
 .green3 {
-  width: 200px; 
+ 
   height: 100px; 
   background-color: green;
   grid-column: 1/2;
   grid-row: 2;
 } 
 .yellow3 {
-  width: 200px; 
+ 
   height: 100px; 
   background-color: gold; 
   grid-column: 2/4;
   grid-row: 2; 
 } 
 .blue3 {
-  width: 100%;
+ 
   height: 100px; 
   background-color: blue; 
   grid-column: 1/ span 3;
