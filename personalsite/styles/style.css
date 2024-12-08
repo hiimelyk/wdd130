@@ -319,3 +319,59 @@ section#aboutme {
     justify-content: space-around;
   }
 }
+.contactme-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  font-family: 'Roboto', sans-serif;
+  gap: 20px;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.first-row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%; /* Spans the full width */
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* Ensures responsiveness for smaller screens */
+}
+
+.first-row .item {
+  display: flex;
+  align-items: center; /* Vertically align image and text */
+  gap: 10px; /* Space between image and text */
+  flex: 1; /* Each item will take equal space */
+  max-width: 200px; /* Optional: limit width */
+}
+
+.first-row img {
+  width: 50px; /* Adjust size of the icons */
+  height: auto;
+}
+
+.second-row {
+  text-align: center;
+  width: 80%; /* Adjust width to fit content */
+  margin-top: 10px;
+}
+
+.second-row p {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Optional Responsive Design */
+@media (max-width: 768px) {
+  .first-row {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center items */
+  }
+
+  .first-row .item {
+      justify-content: center;
+  }
+}
