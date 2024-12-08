@@ -1,0 +1,66 @@
+/* General Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Logo Styles */
+header .logo {
+    max-height: 50px; /* Adjust the logo height */
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    gap: 20px; /* Spacing between nav items */
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #007BFF; /* Hover effect for links */
+}
+/* Footer Styles */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ddd;
+}
+
+/* Left Content (Name) */
+footer .footer-left {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Right Content (Navigation Links) */
+footer .footer-nav {
+    display: flex;
+    gap: 15px; /* Space between the navigation links */
+}
+
+footer .footer-nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+footer .footer-nav a:hover {
+    color: #007BFF; /* Hover effect for links */
+}
