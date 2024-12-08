@@ -87,9 +87,13 @@ footer p {
 
 /* Image Row */
 .home-container {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .home-image img {
@@ -102,6 +106,12 @@ footer p {
 .home-text {
   max-width: 800px;
   text-align: center;
+  display: grid;
+  gap: 20px;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .home-text p {
@@ -195,4 +205,117 @@ footer p {
 .card button:hover {
   background-color: #555; /* Changes background on hover */
   transform: scale(1.02); /* Slightly enlarges the button on hover */
+}
+/* General styling for the page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+main.aboutme-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+section#aboutme {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* First column (images) styling */
+.aboutme-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.aboutme-image img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Second column (text) styling */
+.aboutme-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #1E3A8A;
+}
+
+.aboutme-text p {
+  margin: 0;
+}
+
+/* Card styling */
+.card {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.card h1 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.card .title {
+  color: #777;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #555;
+  margin: 10px 0;
+}
+
+.card button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
+
+/* Icon styling */
+.card img {
+  width: 24px;
+  margin: 5px;
+  vertical-align: middle;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  section#aboutme {
+    grid-template-columns: 1fr;
+  }
+
+  .aboutme-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
